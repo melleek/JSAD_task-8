@@ -3,8 +3,8 @@ class FraudDetector {
 
   addTransaction(amount, type) {
     const transaction = {
-      amount: amount,
-      type: type,
+      amount,
+      type,
       isFlagged: false
     };
 

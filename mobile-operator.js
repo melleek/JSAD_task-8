@@ -3,8 +3,8 @@ class MobileOperator {
 
   addClient(name, balance) {
     this.clients.push({
-      name: name,
-      balance: balance
+      name,
+      balance
     });
   }
 

@@ -3,9 +3,9 @@ class PoliceStation {
 
   addCase(caseNumber, suspectName, status) {
     this.stations.push({
-      caseNumber: caseNumber,
-      suspectName: suspectName,
-      status: status
+      caseNumber,
+      suspectName,
+      status
     });
   }
 

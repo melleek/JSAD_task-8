@@ -3,9 +3,9 @@ class CashRegister {
 
   addItem(name, price, quantity) {
     this.items.push({
-      name: name,
-      price: price,
-      quantity: quantity
+      name,
+      price,
+      quantity
     });
   }
 

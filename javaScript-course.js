@@ -3,8 +3,8 @@ class JavaScriptCourse {
 
   addStudent(name, grades) {
     this.students.push({
-      name: name,
-      grades: grades
+      name,
+      grades
     });
   }
 
